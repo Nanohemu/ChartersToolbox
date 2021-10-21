@@ -27,7 +27,7 @@ def _num_char(c):
 def _delay(c, d):
     """
     Move a note to d time/id later or -d time/id earlier
-    :param c: note time
+    :param c: note attribution (time, id or else)
     :param d: time/id delay
     :return: delayed note time
     """
